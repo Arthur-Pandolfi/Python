@@ -122,11 +122,12 @@ else:
     elif sorrted_or_no == 2: #Checa se o usuário quer ver os números impáres na ordem que foi Digitada
         print('OK, aqui está os números impáres na ordem Digitada:')
         for position in range(len(odd_numbers)):
-            print(odd_numbers[position], end=' ')
+            print(sorted_odd_numbers[position], end=' ')
         sleep(0.5)
     elif sorrted_or_no == 3: #Cehca se o usuário quer ver os números impáres na ordem decrescente
         print('Ok, aqui estpa os números impáres na ordem Decrescente:')
         for position in range(len(sorted_odd_numbers) -1, -1, -1):
             print(sorted_odd_numbers[position], end=' ')
         sleep(0.5)
+print()
 print('-=-' * 10)
